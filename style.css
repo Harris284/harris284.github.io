@@ -47,7 +47,9 @@ nav a{
 	grid-area: 1/1/2/span 2;
 }
 .wow-image{
-	display: block;
+	display: flex;
+ 	justify-content: center; /* Centers horizontally */
+	align-items: center;
 	height: 24em;
 	border: solid 5px black;
 	border-radius: 1rem;
