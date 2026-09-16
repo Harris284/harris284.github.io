@@ -31,6 +31,9 @@ nav a{
 	text-decoration: none;
 	color: inherit;
 }
+nav a hover{
+	color: #ED9121;
+}
 .maindiv{
 	margin: 1rem;
 	padding: 1rem;
