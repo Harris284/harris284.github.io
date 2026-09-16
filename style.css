@@ -30,7 +30,7 @@ nav a{
 	text-decoration: none;
 	color: inherit;
 }
-nav a hover{
+nav a:hover{
 	color: #ED9121;
 }
 .maindiv{
