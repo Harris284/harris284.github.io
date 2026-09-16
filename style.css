@@ -16,7 +16,7 @@ footer{
 }
 nav{
 	float: left;
-
+	text-align: center;
 	background-color: lightgrey;
 	border-radius: 1rem;
 	padding: 1rem;
