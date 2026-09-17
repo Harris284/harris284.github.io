@@ -86,3 +86,20 @@ nav a:hover{
 	  justify-content: center; 
 	  align-items: center;       
 }
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;      
+  gap: 16px;            
+}
+
+.gallery-item {
+  flex: 1 1 calc(50% - 8px); 
+  box-sizing: border-box;
+}
+
+.gallery-item img {
+  width: 100%;          
+  height: auto;          
+  display: block;        
+  object-fit: cover;    
+}
