@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Harris Computer</title>
+	<link rel="stylesheet" href="style.css?58">
+	<link rel="icon" type="image/x-icon" href="hcfavicon.ico">
+</head>
+
+<header class="header">
+	<img src="hctext.png" class="">
+	<p>
+		Homegrown &#10070 Homebuilt &#10070 Home Computing
+    </p>
+</header>
+
+<body>
+	<nav>
+    		<ul>
+      		<li><a href="#">Home</a></li>
+      		<li><a href="services.html">Services</a></li>
+      		<li><a href="parts.html">Parts</a></li>
+          <li><a href="guides.html">Guides</a></li>
+          <li><a href="#">About</a></li>
+			<li><a href="Guides">Guides</a></li>
+    		<li><a href="about.html>About</a></li>
+			</ul>
+	</nav>
+	</div>
+  <div></div>
+</body>
+
+<footer>
+	<table class="center-table">
+	<tr>
+		<th>Hours</th>
+		<th>MTWRF 9a-5p</th>
+	</tr>
+	<tr>
+		<th>Address</th>
+		<th>123 Main Rd<br>Vineland, NJ 08360</th>
+	</tr>
+	<tr>
+		<th>Phone</th>
+		<th>555-867-5309</th>
+	</tr>
+	<tr>
+		<th>Email</th>
+		<th>joe@harriscomputerllc.com</th>
+	</tr>
+
+	</table>
+</footer>
+
+</html>
