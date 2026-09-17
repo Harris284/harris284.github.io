@@ -81,3 +81,8 @@ nav a:hover{
 	  justify-content: center;
 	  align-items: center;         
 }
+.map{
+	  display: flex;
+	  justify-content: center; 
+	  align-items: center;       
+}
