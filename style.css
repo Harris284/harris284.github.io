@@ -76,3 +76,9 @@ nav a:hover{
 .smol{
 	width: 10rem;
 }
+.center-vid{
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;  
+	  height: 100vh;       
+}
