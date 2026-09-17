@@ -73,9 +73,6 @@ nav a:hover{
 .nobullets{
 	list-style-type: none;
 }
-.smol{
-	width: 10rem;
-}
 .center-main{
 	  display: flex;
 	  justify-content: center;
@@ -97,9 +94,8 @@ nav a:hover{
   box-sizing: border-box;
 }
 
-.gallery-item img {
-  width: 100%;          
-  height: auto;          
+.gallery-item img {         
+  width: 10rem;          
   display: block;        
   object-fit: cover;    
 }
