@@ -111,8 +111,13 @@ nav a:hover{
   border-radius: 10px;
 }
 
+.price-table{
+	background-color: grey;
+}
+
 .price-table th, .price-table td {
   text-align: center;
+	background-color: lightgrey;
 }
 
 
