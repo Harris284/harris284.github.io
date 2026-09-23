@@ -106,9 +106,14 @@ nav a:hover{
   object-fit: cover;    
 }
 
-.price-table table, th, td {
+.price-table table, .price-table th, .price-table td {
   border: 1px solid black;
   border-radius: 10px;
 }
+
+.price-table th, .price-table td {
+  text-align: center;
+}
+
 
 
