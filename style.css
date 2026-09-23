@@ -106,7 +106,7 @@ nav a:hover{
   object-fit: cover;    
 }
 
-.price-table table, .price-table th, .price-table td {
+.price-table, .price-table th, .price-table td {
   border: 1px solid black;
   border-radius: 10px;
 }
