@@ -1,3 +1,4 @@
+@media (min-width: 1024px){
 body{
 	margin: 1rem;
 	background: #ED9121;
@@ -120,6 +121,7 @@ background-color: grey;
 	background-color: lightgrey;
 	padding: 5px;
 }
+} /* end of desktop styling */
 
 
 
