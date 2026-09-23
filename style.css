@@ -123,5 +123,17 @@ background-color: grey;
 }
 } /* end of desktop styling */
 
+/*mobile styling below*/
+@media (max-wdith: 1023px){
+	
+body{
+	background: #ED9121;
+	color: black;
+	font-family: Arial;
+	display: grid;
+}
+.logo{
+	width: 500px;
+}
 
-
+} /* end of mobile styling */
