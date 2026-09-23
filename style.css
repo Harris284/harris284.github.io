@@ -89,6 +89,7 @@ nav a:hover{
   gap: 16px;   
   background: lightgrey;
   border-radius: 1rem;
+  padding: 1rem;
 }
 
 .gallery-item {
