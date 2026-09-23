@@ -121,6 +121,12 @@ background-color: grey;
 	background-color: lightgrey;
 	padding: 5px;
 }
+.menu-toggle-open{
+	display: none;
+}
+.menu-toggle-close{
+	display: none;
+}
 } /* end of desktop styling */
 
 /*mobile styling below*/
@@ -135,5 +141,33 @@ body{
 .logo{
 	width: 500px;
 }
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;       
+    height: 100vh;      
+    background: #333; 
+    z-index: 1000;      
+    padding-top: 60px; 
+    
+    transform: translateX(-100%); 
+    transition: transform 0.3s ease-in-out; 
+  }
 
+  nav.open {
+    transform: translateX(0);
+  }
+
+  .menu-toggle-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    color: #fff;      
+    font-size: 24px;
+    cursor: pointer;
+  }
+	
 } /* end of mobile styling */
