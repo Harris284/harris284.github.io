@@ -113,11 +113,14 @@ nav a:hover{
 
 .price-table{
 	background-color: grey;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .price-table th, .price-table td {
   text-align: center;
 	background-color: lightgrey;
+	padding: 2px;
 }
 
 
