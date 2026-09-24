@@ -122,18 +122,15 @@ background-color: grey;
 	background-color: lightgrey;
 	padding: 5px;
 }
-.menu-toggle-open{
-	display: none;
-}
-.menu-toggle-close{
-	display: none;
-}
+.menu-toggle-open, .menu-toggle-close{ display: none; }
 
 } /* end of desktop style */
 
 /* begin mobile style */
 @media (max-width: 1023px){
 
+.menu-toggle-open, .menu-toggle-close{ display: none; }
+	
 body{
 	margin: 1rem;
 	background: #ED9121;
@@ -143,33 +140,23 @@ body{
 }
 
 .mobile-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 250px;       
-    height: 100vh;      
-    background: #333;   /* Menu background color */
-    z-index: 1000;      
-    padding-top: 60px;  /* Pushes links down so they don't overlap the X button */
-    
-    transform: translateX(-100%); 
-    transition: transform 0.3s ease-in-out; 
+    width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 3rem;
+	text-align: center;
 }
 
-.mobile-nav.open {
-    transform: translateX(0);
+.wow-image{
+	width: 95%;
 }
 
-  /* Style the 'X' button inside the mobile menu */
-.menu-toggle-close {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    background: none;
-    border: none;
-    color: #fff;        /* Matches light text on dark background */
-    font-size: 24px;
-    cursor: pointer;
+footer{
+	margin: 1rem;
+	padding: 1rem;
+	border: 1px dashed black;
+	border-radius: 1rem;
+	background: darkgrey;
 }
 
 } /* end of mobile style */
