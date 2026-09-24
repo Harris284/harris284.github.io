@@ -127,7 +127,7 @@ background-color: grey;
 .menu-toggle-close{
 	display: none;
 }
-.contact-form {
+form {
   background-color: white;
   max-width: 600px;
   margin: 25px auto;
