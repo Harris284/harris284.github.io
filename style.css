@@ -130,13 +130,14 @@ background-color: grey;
 @media (max-width: 1023px){
 
 .menu-toggle-open, .menu-toggle-close{ display: none; }
-	
+
 body{
 	margin: 1rem;
 	background: #ED9121;
 	color: black;
 	font-family: Arial;
 	display: grid;
+	font-size: 20px;
 }
 
 .mobile-nav {
